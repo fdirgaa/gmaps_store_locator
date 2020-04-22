@@ -93,6 +93,7 @@ body {
 .store-container{
     /* padding: 0 15px; */
     border-bottom: 1px solid #979797;
+    cursor: pointer;
 }
 
 .store-container:last-child{
