@@ -1,18 +1,18 @@
 # Plan Of Action
 
-- Import Google Maps into the Window
+- Import Google Maps into the Window DONE
 
-- Add the header `Store Locator` 
+- Add the header `Store Locator` DONE
 
-- Add markers of stores to the map
+- Add markers of stores to the map DONE
 
-- Add info window with name of store to each marker
+- Add info window with name of store to each marker DONE
 
-- Add input box
+- Add input box DONE
 
-- Add store list container
+- Add store list container DONE
 
-- Add individual store container
+- Add individual store container DONE
 
 - Show all the stores in the stores list using `store-data.js`
 

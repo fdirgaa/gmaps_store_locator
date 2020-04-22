@@ -1,3 +1,7 @@
+:root{
+    --primary-color: tomato;
+}
+
 body {
     font-family: Arial, Helvetica, sans-serif;
     width: 100%;
@@ -58,3 +62,92 @@ body {
 .search-container input:focus{
     outline: none;
 }
+
+
+/* Store List  */
+
+.store-list-container{
+    position: absolute;
+    background: white;
+    width: 300px;
+    z-index: 100;
+    top: 200px;
+    left: 100px;
+    border-radius: 20px;
+    bottom: 20px;
+    display: flex;
+}
+
+.stores-list{
+    padding: 0 15px;
+    overflow-y: scroll;
+    flex-grow: 1;
+}
+
+.store-address{
+    font-size: 1.2rem;
+    color: #514c4c;
+    margin-top: 20px;
+}
+
+.store-container{
+    /* padding: 0 15px; */
+    border-bottom: 1px solid #979797;
+}
+
+.store-container:last-child{
+    border: none;
+}
+
+::-webkit-scrollbar{
+    width: 5px;
+}
+
+::-webkit-scrollbar-track{
+    border: 7px solid rgba(0, 0, 0, .2);
+}   
+
+::-webkit-scrollbar-thumb{
+    background-color: white;
+}
+
+.store-container-background{
+    display: flex;
+}
+
+.store-info-container{
+    flex-grow: 1;
+}
+
+.store-address span{
+    display: block;
+}
+
+.store-phone{
+    color: #85adad;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.store-phone-number{
+    color: #b5adad;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.store-number-container{
+    display: flex;
+    align-items: center;
+}
+
+.store-number{
+    display: flex;
+    width: 30px;
+    height: 30px;
+    background-color: #454e53;
+    color: #b5adad;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+
