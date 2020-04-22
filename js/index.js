@@ -25,7 +25,17 @@ document.getElementById('zip-code-input').addEventListener('keypress', function(
     if(e.which == 13){
         searchStores();
     }
-})
+});
+
+// document.getElementById('zip-code-input').addEventListener('pointerenter', function(){
+//     var storesContainer = document.querySelector('.store-list-container');
+//     storesContainer.classList.toggle('d-block');
+// });
+
+// document.getElementById('zip-code-input').addEventListener('focusout', function(){
+//     var storesContainer = document.querySelector('.store-list-container');
+//     storesContainer.classList.remove('d-block');
+// });
 
 function searchStores() {
     var foundStores = [];
