@@ -24,19 +24,22 @@ function initMap() {
 function displayStores(){
     var storesHTML = '';
     stores.forEach(function(store, index){
+        var address = store.addressLines;
+        var phone = store.phoneNumber;
+
         storesHTML += `
             <div class="store-container">
                 <div class="store-container-background">
                     <div class="store-info-container">
                         <div class="store-address">
-                            <span>257 S. La Cienega Blvd.</span>
-                            <span>Beverly Hills, CA 90211</span>
+                            <span>${address[0]}</span>
+                            <span>${address[1]}</span>
                         </div>
 
-                        <div class="store-phone-number">243-2363-334</div>
+                        <div class="store-phone-number">${phone}</div>
                     </div>
                     <div class="store-number-container">
-                        <div class="store-number">1</div>
+                        <div class="store-number">${index+1}</div>
                     </div>
                     
                 </div>
